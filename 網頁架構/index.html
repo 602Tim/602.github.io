@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!--跟瀏覽器講是用這是html的格式--><!--在網頁中按f12可以顯示這些程式碼-->
+<html>
+    <head>
+        <!--meta標籤-->
+        <meta charset="UTF-8"/>
+        <meta name="discription" content="tim60260的網站筆記"/>
+        <meta name="author" content="雨夢">
+        <meta name="keywords" content="申申不息">
+        <meta name="viewport" content="width=device-width,intital-scale=1.0">
+        <!--width=device-with 視口寬度為裝置寬度，intital-scale=1.0 畫面縮放比100%-->
+        <title>我是網站名稱</title>
+    </head>
+    <body>
+
+        <!--基本標籤-->
+        <h3>我是標題</h3>
+        <!--h(1~6)代表字的大小，數字越小字越大-->
+            <p>我是內文</p>
+        <!--P代表內文-->
+        <br/>
+        <!--br標籤代表換行，中間不加任何內容所以直接加/即可-->
+        <hr/>
+        <!--hr標籤代表水平線，中間不用加任何內容-->
+        <h3>我是標題2</h3>
+            <p>我是內文2，<b>在b裡面我就變成粗體字</b>，<i>在i裡面我就變成斜體字</i>
+            <!--<b>代表粗體字，<i>代表斜體字-->
+            </p>
+
+        <!--連結和圖片-->
+        <a href="https://google.com ">按我可以傳送到google</a>
+        <!--<a>可以建立傳送到其他網站文字，網址要打在herf=""裡-->
+        <br/>
+        <a href="css.html">按我傳送到css</a>
+        <br/>
+        <a href="other/page3.html">按我傳送到page3</a>
+        <!--在同一個資料夾裡，輸入檔案名即可，不同資料夾要加上"/資料夾名稱"-->
+        <br/>
+        <a href="高木同學.png">好油喔</a>
+        <br/>
+        <img src="https://th.bing.com/th/id/OIP.A3ergKS8jqH5pY9C9wq1WgHaKk?pid=ImgDet&rs=1" width="300"/>
+        <br/>
+        <img src="高木同學.png" height="300">
+        <!--width寬，height長，control width只改變寬度-->
+
+        <!--嵌入影片和嵌入youtube影片-->
+        <!--    <video src="影片檔案">瀏覽器無法載入</video>    -->
+        <!--<video>成功啟動會直接顯示影片，若無法顯示會出現"瀏覽器無法載入"-->
+        <br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L-KX2U4SEpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <!--列表和表格-->
+        <ul>
+            <li>whitecat</li>
+            <li>shigetora</li>
+        </ul>
+        <!-- ●標籤名稱 -->
+        <ol>
+            <li>第一</li>
+            <li>第二</li>
+            <li>第三</li>
+        </ol>
+        <!-- ol用數字當開頭，<ol type="A">代表用ABCD來排序，<ol type="i"代表用羅馬數字排列 -->
+        
+        <table width="200" style="color:goldenrod ;">
+            <tr>
+                <td>日期</td>
+                <td>銷售額</td>
+                <td>成本</td>
+            </tr>
+            <tr>
+                <td>9/17</td>
+                <td>900</td>
+                <td>500</td>
+            </tr>
+        </table>
+
+        <!-- html的容器 div和span ，跟css做搭配-->
+        <div style="color:red ;">
+            <table width="200">
+                <tr>
+                    <td>日期</td>
+                    <td>銷售額</td>
+                    <td>成本</td>
+                </tr>
+                <tr>
+                    <td>9/17</td>
+                    <td>900</td>
+                    <td>500</td>
+                </tr>
+            </table>
+        </div>
+        <!--當想要一次改很多字顏色時可以用容器把要改變顏色的放進去-->
+
+        <div>div1</div>
+        <div>div2</div>
+        <br/>
+        <span>span1</span>
+        <span>span2</span>
+        <br/>
+        <!--div占一整行，span物件占多少就占多少-->
+
+        <!-- html的輸入標籤 -->
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <input type="checkbox">
+        <br/>
+        <textarea>吃ㄐㄐ</textarea>
+
+    </body>
+</html>
